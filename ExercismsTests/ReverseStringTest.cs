@@ -12,6 +12,7 @@ namespace ExercismsTests
         [Theory]
         [InlineData(null, "")]
         [InlineData("", "")]
+        [InlineData("Hello", "olleH")]
         public void ReverseStringSuccess(string input, string expected)
         {
             // Act
